@@ -5,7 +5,8 @@ build:
   tools:
     python: "3.11"
 
-
+mkdocs:
+  configuration: mkdocs.yml
 # Explicitly set the version of Python and its requirements
 python:
   install:
