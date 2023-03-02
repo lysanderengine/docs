@@ -1,0 +1,9 @@
+site_name: Lysander Engine Docs
+theme:
+    name: readthedocs
+    highlightjs: true
+nav:
+    - Home: index.md
+    - Getting Started: building.md
+markdown_extensions:
+  - admonition
