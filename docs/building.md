@@ -2,8 +2,8 @@
 
 ## <u>Getting the Engine</u>
 
-Clone the engine using the ```--recursive``` option to clone both the engine itself
-and our main dependency of SFML 2.5.1.
+Clone the engine using Git to gain all the engine core files, including LysanderCore and our
+CMake-based build system you can read about below.
 
 ## <u>Building the Engine</u>
 To build the engine we have provided an easy and simple to
@@ -22,4 +22,4 @@ the ```cmake --build``` command.
 
 To achieve the same on Unix systems compatible with ```sh```, run the ```build.sh```
 script included with the engine's root directory. This will build the LysanderCore
-library in much the same way as the Batch script for Windows mentioned above. 
+library in much the same way as the Batch script for Windows mentioned above.
