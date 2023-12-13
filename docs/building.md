@@ -10,7 +10,7 @@ To build the engine we have provided an easy and simple to
 use script for Unix shell and Windows Command Prompt.
 
 ### Requirements
-- CMake version 3.20 or higher
+- CMake version 3.18 or higher
 - A CMake compatible C++ compiler
 - The cloned copy of Lysander Engine and CMake
 
@@ -23,3 +23,8 @@ the ```cmake --build``` command.
 To achieve the same on Unix systems compatible with ```sh```, run the ```build.sh```
 script included with the engine's root directory. This will build the LysanderCore
 library in much the same way as the Batch script for Windows mentioned above.
+
+You may need some libraries or run into issues with CMake building the SFML library, especially
+with dependencies.
+For more imformation, read the useful page [here](https://www.sfml-dev.org/tutorials/2.6/compile-with-cmake.php)
+on the SFML website.
